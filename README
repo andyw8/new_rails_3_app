@@ -1,4 +1,4 @@
-This is an empty Rails 3 project. It's intended to be a starting point for new apps to get quickly up and running. It's includes RSpec, Cucumber and many other useful gems.
+This is an empty Rails 3 project. It's intended to be a starting point for new apps to get quickly up and running. It includes RSpec, Cucumber and many other useful gems.
 
 Requirements:
 
@@ -8,15 +8,15 @@ Requirements:
 
 Getting started
 
- - $ git clone git@github.com:andyw8/new_rails_3_app.git
-   $ cp database.yml.example database.yml
+  $ git clone git@github.com:andyw8/new_rails_3_app.git
+  $ cp database.yml.example database.yml
 
 Change bundle name in .rvmrc
 
-Even though no tests are defined yet, run rake as sanity check:
+Even though no tests are defined yet, run rake as sanity check that the app can start:
 
-   $ gemset create 'mybundle'
-   $ rake
+  $ gemset create 'mybundle'
+  $ rake
 
 Optional steps
 
