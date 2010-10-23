@@ -1,34 +1,46 @@
 source :rubygems
 
-gem 'rails', '3.0.1'
-gem 'haml' # http://github.com/nex3/haml
-gem 'inherited_resources'
-gem 'devise' # http://github.com/plataformatec/devise
-gem 'aasm'
+gem 'aasm' # http://github.com/rubyist/aasm
 gem 'delayed_job'
+gem 'devise' # http://github.com/plataformatec/devise
+gem 'formtastic'
+gem 'friendly_id', '~> 3.1' # http://github.com/norman/friendly_id
+gem 'haml' # http://github.com/nex3/haml
+gem 'has_scope' # http://github.com/plataformatec/has_scope
+gem 'httparty'
+gem 'inherited_resources' # http://github.com/josevalim/inherited_resources
+gem 'mechanize' # http://github.com/tenderlove/mechanize
+gem 'meta_search' # http://github.com/ernie/meta_search
+gem 'paperclip'
+gem 'rails', '3.0.1'
+gem 'stringex' # http://github.com/rsl/stringex
+gem 'will_paginate', '~> 3.0.pre2' # need this version for typus
+gem 'typus', :git => 'git://github.com/fesplugas/typus.git'
 
-group :development, :test, :cucumber do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
-  gem 'heroku'
-  gem 'nifty-generators' # http://github.com/ryanb/nifty-generators
-  gem 'mocha' # used in specs from nify-generators
-  gem 'rspec-rails'
-  gem 'capybara' # used by Cucumber
-  gem 'database_cleaner' # used by Cucumber
-  gem 'cucumber-rails'
-  gem 'spork'
-  gem 'launchy'    # So you can do Then show me the page
-  gem 'timecop' # http://github.com/jtrupiano/timecop
-  gem 'chronic' # http://github.com/mojombo/chronic
-  gem 'pickle'
-  gem 'factory_girl'
-  gem 'faker'
-  gem 'shoulda'
-  gem 'git-up'
+group :development do
   gem 'autotest'
   gem 'autotest-fsevent' # http://github.com/svoop/autotest-fsevent
-  gem 'autotest-rails-pure'
   gem 'autotest-growl'
+  gem 'autotest-rails-pure'
+  gem 'git-up'
+  gem 'heroku'
+  gem 'nifty-generators' # http://github.com/ryanb/nifty-generators
+  gem 'ruby-prof'
+end
+
+group :test, :cucumber do
+  gem 'capybara' # used by Cucumber
+  gem 'chronic' # http://github.com/mojombo/chronic
+  gem 'cucumber-rails'
+  gem 'database_cleaner' # used by Cucumber
+  gem 'factory_girl'
+  gem 'faker'
   gem 'fakeweb'
-  gem 'formtastic'
+  gem 'launchy'    # For 'Then show me the page' in Cucumber
+  gem 'mocha' # used in specs from nify-generators
+  gem 'pickle'
+  gem 'rspec-rails'
+  gem 'shoulda'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'timecop' # http://github.com/jtrupiano/timecop
 end
