@@ -26,6 +26,7 @@ group :development do
   gem 'heroku'
   gem 'nifty-generators' # http://github.com/ryanb/nifty-generators
   gem 'ruby-prof'
+  gem 'hpricot' # used to convert Devise views to Haml
 end
 
 group :test, :cucumber do
