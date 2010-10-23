@@ -5,6 +5,7 @@ gem 'haml' # http://github.com/nex3/haml
 gem 'inherited_resources'
 gem 'devise' # http://github.com/plataformatec/devise
 gem 'aasm'
+gem 'delayed_job'
 
 group :development, :test, :cucumber do
   gem 'sqlite3-ruby', :require => 'sqlite3'
@@ -29,4 +30,5 @@ group :development, :test, :cucumber do
   gem 'autotest-rails-pure'
   gem 'autotest-growl'
   gem 'fakeweb'
+  gem 'formtastic'
 end
