@@ -9,4 +9,5 @@ group :development, :test do
   gem 'nifty-generators' # http://github.com/ryanb/nifty-generators
   gem 'inherited_resources'
   gem 'devise' # http://github.com/plataformatec/devise
+  gem 'rspec-rails'
 end
