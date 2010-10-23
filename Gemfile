@@ -23,4 +23,9 @@ group :development, :test, :cucumber do
   gem 'factory_girl'
   gem 'faker'
   gem 'shoulda'
+  gem 'git-up'
+  gem 'autotest'
+  gem 'autotest-fsevent' # http://github.com/svoop/autotest-fsevent
+  gem 'autotest-rails-pure'
+  gem 'autotest-growl'
 end
