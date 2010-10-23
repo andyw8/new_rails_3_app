@@ -28,4 +28,5 @@ group :development, :test, :cucumber do
   gem 'autotest-fsevent' # http://github.com/svoop/autotest-fsevent
   gem 'autotest-rails-pure'
   gem 'autotest-growl'
+  gem 'fakeweb'
 end
