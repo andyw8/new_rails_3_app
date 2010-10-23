@@ -1,0 +1,7 @@
+Scaffolding:
+
+  rails g nifty:scaffold Achievement name:string --rspec --haml
+
+Cucumber:
+
+  rails g cucumber:feature post title:string body:text published:boolean

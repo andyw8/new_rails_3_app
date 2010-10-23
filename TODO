@@ -1,0 +1,18 @@
+* Configure Devise (see DEVISE_STEPS)
+* How to generate a unique value in config/init/secret_token
+* Looking intorb/Spork
+* Deprecation warning about 'Base.named_scope'
+* Configure delayed_job not to destroy failed jobs
+* try get ruby-prof running
+* Add metric-fu and rack-bug once they have been updated for Rails 3
+* Check that typus admin is secure
+* Check that typus works on Heroku
+* Investigate options for indexes:
+ - http://github.com/eladmeidar/rails_indexes ?
+ - http://github.com/samdanavia/ambitious_query_indexer
+ - acts_as_indexed
+* Find out why gem 'github' seems to break the app
+* Look into annotate_models ? http://github.com/ctran/annotate_models
+* Check for ideas in:
+ - http://github.com/ffmike/BigOldRailsTemplate
+ - http://github.com/jm/rails-templates
