@@ -16,6 +16,7 @@ gem 'rails', '3.0.1'
 gem 'stringex' # http://github.com/rsl/stringex
 gem 'will_paginate', '~> 3.0.pre2' # need this version for typus
 gem 'typus', :git => 'git://github.com/fesplugas/typus.git'
+gem 'inherited_resources_views'
 
 group :development do
   gem 'autotest'
@@ -27,6 +28,7 @@ group :development do
   gem 'nifty-generators' # http://github.com/ryanb/nifty-generators
   gem 'ruby-prof'
   gem 'hpricot' # used to convert Devise views to Haml
+  gem 'ruby_parser' # needed when generating Haml views for inherited_resources_views
 end
 
 group :test, :cucumber do

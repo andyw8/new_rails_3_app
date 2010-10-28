@@ -1,0 +1,15 @@
+- title resource.class.to_s.titleize
+
+%table
+  - resource.attributes.each do |a|
+    %tr
+      - next if ['created_at', 'updated_at', 'id'].include?(a[0])
+      %th= a[0].titleize
+      %td= a[1]
+
+%p
+  = link_to "Edit", edit_resource_path(resource)
+  |
+  = link_to "Destroy", resource, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", collection_path

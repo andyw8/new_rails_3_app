@@ -1,0 +1,5 @@
+- title "Edit #{resource.class.to_s.titleize}"
+
+= render 'form'
+%p= link_to 'Show', resource_url(resource)
+%p= link_to 'Back', collection_url
