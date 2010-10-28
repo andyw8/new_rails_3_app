@@ -46,4 +46,5 @@ group :test, :cucumber do
   gem 'shoulda'
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'timecop' # http://github.com/jtrupiano/timecop
+  gem 'email_spec' # http://github.com/bmabey/email-spec
 end
