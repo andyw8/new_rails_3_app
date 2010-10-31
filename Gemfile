@@ -16,7 +16,7 @@ gem 'rails', '3.0.1'
 gem 'stringex' # http://github.com/rsl/stringex
 gem 'will_paginate', '~> 3.0.pre2' # need this version for typus
 gem 'typus', :git => 'git://github.com/fesplugas/typus.git'
-gem 'inherited_resources_views'
+gem 'inherited_resources_views', :git => 'git://github.com/andyw8/inherited_resources_views.git'
 
 group :development do
   gem 'autotest'
