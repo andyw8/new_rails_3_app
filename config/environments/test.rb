@@ -32,4 +32,7 @@ MyApp::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # auto rotate log files, keep 2 of 5MB each
+  config.logger = Logger.new(config.paths.log.first, 1, 5.megabytes)
 end
