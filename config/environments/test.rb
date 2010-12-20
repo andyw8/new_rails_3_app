@@ -34,5 +34,5 @@ MyApp::Application.configure do
   config.active_support.deprecation = :stderr
 
   # auto rotate log files, keep 2 of 5MB each
-  config.logger = Logger.new(config.paths.log.first, 1, 5.megabytes)
+  config.logger = Logger.new(config.paths.log.first, 1, 5_000_000)
 end
