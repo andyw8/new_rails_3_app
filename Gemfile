@@ -14,7 +14,7 @@ gem 'mechanize' # https://github.com/tenderlove/mechanize
 gem 'meta_search' # https://github.com/ernie/meta_search
 gem 'pacecar' # https://github.com/thoughtbot/pacecar
 gem 'paperclip'
-gem 'rails'
+gem 'rails', '3.0.1'
 gem 'stringex' # https://github.com/rsl/stringex
 gem 'will_paginate', '~> 3.0.pre2'
 gem 'validates_timeliness'
@@ -41,7 +41,6 @@ group :development, :test do
   gem 'flay' # http://ruby.sadi.st/Flay.html
   gem 'flog' # http://ruby.sadi.st/Flog.html
   gem 'reek' # https://github.com/kevinrutherford/reek
-  gem 'heckle' # http://ruby.sadi.st/Heckle.html
 end
 
 group :test do
