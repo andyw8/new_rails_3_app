@@ -1,7 +1,7 @@
 source :rubygems
 
 gem 'aasm' # https://github.com/rubyist/aasm
-gem 'resque' # https://github.com/defunkt/resque
+gem 'delayed_job' # https://github.com/collectiveidea/delayed_job
 gem 'devise' # https://github.com/plataformatec/devise
 gem 'simple_form' # https://github.com/plataformatec/simple_form
 gem 'friendly_id', '~> 3.1' # https://github.com/norman/friendly_id
